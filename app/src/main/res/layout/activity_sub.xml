@@ -9,21 +9,21 @@
         android:layout_height="wrap_content"/>
     <EditText
         android:inputType="number"
-        android:id="@+id/n1"
+        android:id="@+id/n3"
         android:hint="enter num1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <EditText
         android:inputType="number"
-        android:id="@+id/n2"
+        android:id="@+id/n4"
         android:hint="enter num2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/addt"
+        android:id="@+id/sub"
         android:background="#B44545"
-        android:text="ADD"
+        android:text="SUB"
         android:layout_marginLeft="40dp"
         android:layout_marginTop="10dp"
         android:layout_marginRight="50dp"
@@ -33,17 +33,17 @@
 
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/go"
+        android:id="@+id/ba"
         android:background="#B44545"
-      android:text="GO BACK"
-      android:layout_marginLeft="40dp"
-      android:layout_marginTop="10dp"
-      android:layout_marginRight="50dp"
-      android:gravity="center"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"/>
+        android:text="GO BACK"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="50dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
     <TextView
-        android:id="@+id/res"
+        android:id="@+id/resu"
         android:layout_marginTop="10dp"
         android:text="0"
         android:layout_width="wrap_content"
